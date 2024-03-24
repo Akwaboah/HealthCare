@@ -1,0 +1,7 @@
+# Project Dev files
+HealthCareWeb/__pycache__
+Web/__pycache__
+Web/migrations
+# Dev files
+.venv
+db.sqlite3
