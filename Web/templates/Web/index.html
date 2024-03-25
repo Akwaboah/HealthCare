@@ -59,6 +59,24 @@
     <script src="{% static 'web/plugins/google-map/gmap.js' %}"></script>
 
     <script src="{% static 'web/js/script.js' %}"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var dropdownToggle = document.querySelector('.dropdown-toggle');
+            var dropdownMenu = document.querySelector('.dropdown-menu');
+        
+            dropdownToggle.addEventListener('click', function(event) {
+                event.preventDefault();
+                dropdownMenu.classList.toggle('show');
+            });
+        
+            document.addEventListener('click', function(event) {
+                var isClickInside = dropdownToggle.contains(event.target) || dropdownMenu.contains(event.target);
+                if (!isClickInside) {
+                    dropdownMenu.classList.remove('show');
+                }
+            });
+        });
+        </script>
 </body>
 
 </html>
