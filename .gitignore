@@ -4,4 +4,4 @@ Web/__pycache__
 Web/migrations
 # Dev files
 .venv
-# db.sqlite3
+db.sqlite3
