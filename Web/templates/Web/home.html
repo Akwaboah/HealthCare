@@ -79,9 +79,9 @@
 			<div class="col-lg-4">
 				<div class="about-content pl-4 mt-4 mt-lg-0">
 					<h2 class="title-color">Personal care <br>& healthy living</h2>
-					<p class="mt-4 mb-5">We provide best leading medicle service Nulla perferendis veniam deleniti ipsum officia dolores repellat laudantium obcaecati neque.</p>
+					<p class="mt-4 mb-5">At Kumah Mmedical Hospital, we understand the importance of personal care in fostering a healthy lifestyle. Our team of dedicated professionals is here to support you on your wellness journey, providing personalized guidance, resources, and services to help you thrive. Together, let's embrace the power of personal care and embark on a path to vibrant health and happiness.</p>
 
-					<a href="service.html" class="btn btn-main-2 btn-round-full btn-icon">Services<i class="icofont-simple-right ml-3"></i></a>
+					<a href="{% url 'page' 'service' %}" class="btn btn-main-2 btn-round-full btn-icon">Services<i class="icofont-simple-right ml-3"></i></a>
 				</div>
 			</div>
 		</div>
@@ -124,90 +124,91 @@
 		</div>
 	</div>
 </section>
-<section class="section service gray-bg">
+<section class="section testimonial-2 gray-bg">
 	<div class="container">
 		<div class="row justify-content-center">
-			<div class="col-lg-7 text-center">
-				<div class="section-title">
-					<h2>Award winning patient care</h2>
+			<div class="col-lg-7">
+				<div class="section-title text-center">
+					<h2>Our services to over 5000+ Patients</h2>
 					<div class="divider mx-auto my-4"></div>
-					<p>At our facility, this dedication to exceptional patient care has not only been recognized but celebrated through prestigious accolades, affirming our unwavering commitment to our patients' well-being.</p>
+					<p>Our comprehensive range of services is designed to meet the diverse needs of our patients, ensuring that they receive the highest standard of care across every interaction.</p>
 				</div>
 			</div>
 		</div>
+	</div>
 
-		<div class="row">
-			<div class="col-lg-4 col-md-6 col-sm-6">
-				<div class="service-item mb-4">
-					<div class="icon d-flex align-items-center">
-						<i class="icofont-laboratory text-lg"></i>
-						<h4 class="mt-3 mb-3">Laboratory services</h4>
-					</div>
-
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-12 testimonial-wrap-2">
+				<div class="testimonial-block style-2  gray-bg" style="margin:5px;padding:5px;">
+					<img src="/static/web/images/service/dental-service.jpg" alt="" class="img-fluid w-100">
 					<div class="content">
-						<p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+						<h4 class="mt-2 mb-2  title-color">Dental Care</h4>
+						<p class="mb-2">Experience personalized dental care delivered by our skilled professionals.</p>
+						<a href="{% url 'page' 'dental-services' %}" class="read-more">Learn More</i></a>
 					</div>
 				</div>
-			</div>
-
-			<div class="col-lg-4 col-md-6 col-sm-6">
-				<div class="service-item mb-4">
-					<div class="icon d-flex align-items-center">
-						<i class="icofont-heart-beat-alt text-lg"></i>
-						<h4 class="mt-3 mb-3">Heart Disease</h4>
-					</div>
+				
+				<div class="testimonial-block style-2  gray-bg" style="margin:5px;padding:5px;">
+					<img src="/static/web/images/service/radiology-service.jpg" alt="" class="img-fluid w-100">
 					<div class="content">
-						<p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+						<h4 class="mt-2 mb-2  title-color">Radiology</h4>
+						<p class="mb-2">Imaging for diagnosis and treatment planning. Our Services, X-rays, MRI scans, and CT scans.</p>
+						<a href="{% url 'page' 'radiology-services' %}" class="read-more">Learn More</i></a>
 					</div>
 				</div>
-			</div>
-			
-			<div class="col-lg-4 col-md-6 col-sm-6">
-				<div class="service-item mb-4">
-					<div class="icon d-flex align-items-center">
-						<i class="icofont-tooth text-lg"></i>
-						<h4 class="mt-3 mb-3">Dental Care</h4>
-					</div>
+
+				<div class="testimonial-block style-2  gray-bg" style="margin:5px;padding:5px;">
+					<img src="/static/web/images/service/laboratory-service.jpg" alt="" class="img-fluid w-100">
 					<div class="content">
-						<p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+						<h4 class="mt-2 mb-2  title-color">Laboratory</h4>
+						<p class="mb-2">Analyzing specimens for diagnostic insights and treatment.</p>
+						<a href="{% url 'page' 'laboratory-services' %}" class="read-more">Learn More</a>
 					</div>
 				</div>
-			</div>
 
-
-			<div class="col-lg-4 col-md-6 col-sm-6">
-				<div class="service-item mb-4">
-					<div class="icon d-flex align-items-center">
-						<i class="icofont-crutch text-lg"></i>
-						<h4 class="mt-3 mb-3">Body Surgery</h4>
-					</div>
-
+				<div class="testimonial-block style-2  gray-bg" style="margin:5px;padding:5px;">
+					<img src="/static/web/images/service/pharmacy-service.jpg" alt="" class="img-fluid w-100">
 					<div class="content">
-						<p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+						<h4 class="mt-2 mb-2  title-color">Pharmacy</h4>
+						<p class="mb-2">Dispensing medications and offering pharmaceutical services for patient care.</p>
+						<a href="{% url 'page' 'pharmacy-services' %}" class="read-more">Learn More</a>
 					</div>
 				</div>
-			</div>
 
-			<div class="col-lg-4 col-md-6 col-sm-6">
-				<div class="service-item mb-4">
-					<div class="icon d-flex align-items-center">
-						<i class="icofont-brain-alt text-lg"></i>
-						<h4 class="mt-3 mb-3">Neurology Sargery</h4>
-					</div>
+				<div class="testimonial-block style-2  gray-bg" style="margin:5px;padding:5px;">
+					<img src="/static/web/images/service/surgery-service.jpg" alt="" class="img-fluid w-100">
 					<div class="content">
-						<p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+						<h4 class="mt-2 mb-2  title-color">Surgery</h4>
+						<p class="mb-2">Performing medical procedures to treat illnesses and injuries..</p>
+						<a href="{% url 'page' 'surgery-services' %}" class="read-more">Learn More</a>
 					</div>
 				</div>
-			</div>
-			
-			<div class="col-lg-4 col-md-6 col-sm-6">
-				<div class="service-item mb-4">
-					<div class="icon d-flex align-items-center">
-						<i class="icofont-dna-alt-1 text-lg"></i>
-						<h4 class="mt-3 mb-3">Gynecology</h4>
-					</div>
+
+				<div class="testimonial-block style-2  gray-bg" style="margin:5px;padding:5px;">
+					<img src="/static/web/images/service/ward-service.jpg" alt="" class="img-fluid w-100">
 					<div class="content">
-						<p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+						<h4 class="mt-2 mb-2  title-color">Wards</h4>
+						<p class="mb-2">Explore specialized areas for medical services and patient resources.</p>
+						<a href="{% url 'page' 'Wards-services' %}" class="read-more">Learn More</a>
+					</div>
+				</div>
+
+				<div class="testimonial-block style-2  gray-bg" style="margin:5px;padding:5px;">
+					<img src="/static/web/images/service/ent-service.jpg" alt="" class="img-fluid w-100">
+					<div class="content">
+						<h4 class="mt-2 mb-2  title-color">Ear, Nose and Throat</h4>
+						<p class="mb-2">Don't let ear, nose, or throat issues compromise your quality of life. Schedule a consultation us now.</p>
+						<a href="{% url 'page' 'ent-services' %}" class="read-more">Learn More</a>
+					</div>
+				</div>
+
+				<div class="testimonial-block style-2  gray-bg" style="margin:5px;padding:5px;">
+					<img src="/static/web/images/service/ivf-services.jpg" alt="" class="img-fluid w-100">
+					<div class="content">
+						<h4 class="mt-2 mb-2  title-color">In Vitro Fertilization</h4>
+						<p class="mb-2">We offers comprehensive support and advanced treatments to help you achieve your parenthood.</p>
+						<a href="{% url 'page' 'ivf-services' %}" class="read-more">Learn More</a>
 					</div>
 				</div>
 			</div>
@@ -228,14 +229,14 @@
 			<div class="col-lg-6 col-md-10 ">
 				<div class="appoinment-wrap mt-5 mt-lg-0">
 					<h2 class="mb-2 title-color">Book appoinment</h2>
-					<p class="mb-4">Mollitia dicta commodi est recusandae iste, natus eum asperiores corrupti qui velit . Iste dolorum atque similique praesentium soluta.</p>
+					<p class="mb-4">At Kumah Medical Hospital, your health and well-being are our top priorities. By booking an appointment with us, you're taking the first step towards proactive healthcare management and achieving your wellness goals. We look forward to serving you and providing you with the exceptional care you deserve.</p>
 					     <form id="#" class="appoinment-form" method="post" action="#">
                     <div class="row">
                          <div class="col-lg-6">
                             <div class="form-group">
                                 <select class="form-control" id="exampleFormControlSelect1">
                                   <option>Choose Service</option>
-                                  <option>Dental</option>
+                                  <option>Dental Care</option>
                                   <option>Radiology</option>
                                   <option>Pharmacy</option>
                                   <option>Wards</option>
@@ -291,103 +292,95 @@
 		</div>
 	</div>
 </section>
-<section class="section testimonial-2 gray-bg">
+<section class="section service gray-bg">
 	<div class="container">
 		<div class="row justify-content-center">
-			<div class="col-lg-7">
-				<div class="section-title text-center">
-					<h2>We served over 5000+ Patients</h2>
+			<div class="col-lg-7 text-center">
+				<div class="section-title">
+					<h2>Award winning patient care</h2>
 					<div class="divider mx-auto my-4"></div>
-					<p>Lets know moreel necessitatibus dolor asperiores illum possimus sint voluptates incidunt molestias nostrum laudantium. Maiores porro cumque quaerat.</p>
+					<p>At our facility, this dedication to exceptional patient care has not only been recognized but celebrated through prestigious accolades, affirming our unwavering commitment to our patients' well-being.</p>
 				</div>
 			</div>
 		</div>
-	</div>
 
-	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-lg-12 testimonial-wrap-2">
-				<div class="testimonial-block style-2  gray-bg">
-					<i class="icofont-quote-right"></i>
-
-					<div class="testimonial-thumb">
-						<img src="/static/web/images/team/test-thumb1.jpg" alt="" class="img-fluid">
+		<div class="row">
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="service-item mb-4">
+					<div class="icon d-flex align-items-center">
+						<i class="icofont-laboratory text-lg"></i>
+						<h4 class="mt-3 mb-3">Laboratory services</h4>
 					</div>
 
-					<div class="client-info ">
-						<h4>Amazing service!</h4>
-						<span>John Partho</span>
-						<p>
-							They provide great service facilty consectetur adipisicing elit. Itaque rem, praesentium, iure, ipsum magnam deleniti a vel eos adipisci suscipit fugit placeat.
-						</p>
-						
+					<div class="content">
+						<p class="mb-4">Our award-winning laboratory services are dedicated to providing accurate and timely diagnostic testing, ensuring precise results that healthcare providers and patients can trust for informed decision-making and effective treatment plans.</p>
 					</div>
-				 
 				</div>
+			</div>
 
-				<div class="testimonial-block style-2  gray-bg">
-					<div class="testimonial-thumb">
-						<img src="/static/web/images/team/test-thumb2.jpg" alt="" class="img-fluid">
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="service-item mb-4">
+					<div class="icon d-flex align-items-center">
+						<i class="icofont-heart-beat-alt text-lg"></i>
+						<h4 class="mt-3 mb-3">Heart Disease</h4>
 					</div>
-
-					<div class="client-info">
-						<h4>Expert doctors!</h4>
-						<span>Mullar Sarth</span>
-						<p>
-							They provide great service facilty consectetur adipisicing elit. Itaque rem, praesentium, iure, ipsum magnam deleniti a vel eos adipisci suscipit fugit placeat.
-						</p>
+					<div class="content">
+						<p class="mb-4">Our commitment to excellence in heart disease care has earned us recognition for our comprehensive approach to cardiovascular health, encompassing advanced diagnostics, personalized treatment strategies, and compassionate support for patients and their families.</p>
 					</div>
-					
-					<i class="icofont-quote-right"></i>
 				</div>
-
-				<div class="testimonial-block style-2  gray-bg">
-					<div class="testimonial-thumb">
-						<img src="/static/web/images/team/test-thumb3.jpg" alt="" class="img-fluid">
+			</div>
+			
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="service-item mb-4">
+					<div class="icon d-flex align-items-center">
+						<i class="icofont-tooth text-lg"></i>
+						<h4 class="mt-3 mb-3">Dental Care</h4>
 					</div>
-
-					<div class="client-info">
-						<h4>Good Support!</h4>
-						<span>Kolis Mullar</span>
-						<p>
-							They provide great service facilty consectetur adipisicing elit. Itaque rem, praesentium, iure, ipsum magnam deleniti a vel eos adipisci suscipit fugit placeat.
-						</p>
+					<div class="content">
+						<p class="mb-4">With a focus on patient-centered care and innovative treatment techniques, our award-winning dental services strive to enhance oral health and transform smiles, offering a range of treatments from routine cleanings to complex restorations with precision and expertise.</p>
 					</div>
-					
-					<i class="icofont-quote-right"></i>
 				</div>
+			</div>
 
-				<div class="testimonial-block style-2  gray-bg">
-					<div class="testimonial-thumb">
-						<img src="/static/web/images/team/test-thumb4.jpg" alt="" class="img-fluid">
+
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="service-item mb-4">
+					<div class="icon d-flex align-items-center">
+						<i class="icofont-crutch text-lg"></i>
+						<h4 class="mt-3 mb-3">Body Surgery</h4>
 					</div>
 
-					<div class="client-info">
-						<h4>Nice Environment!</h4>
-						<span>Partho Sarothi</span>
-						<p class="mt-4">
-							They provide great service facilty consectetur adipisicing elit. Itaque rem, praesentium, iure, ipsum magnam deleniti a vel eos adipisci suscipit fugit placeat.
-						</p>
+					<div class="content">
+						<p class="mb-4">Our acclaimed body surgery services are tailored to meet the unique aesthetic and functional needs of each patient, delivering transformative results with a focus on safety, skill, and meticulous attention to detail.</p>
 					</div>
-					<i class="icofont-quote-right"></i>
 				</div>
+			</div>
 
-				<div class="testimonial-block style-2  gray-bg">
-					<div class="testimonial-thumb">
-						<img src="/static/web/images/team/test-thumb1.jpg" alt="" class="img-fluid">
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="service-item mb-4">
+					<div class="icon d-flex align-items-center">
+						<i class="icofont-brain-alt text-lg"></i>
+						<h4 class="mt-3 mb-3">Neurology Sargery</h4>
 					</div>
-
-					<div class="client-info">
-						<h4>Modern Service!</h4>
-						<span>Kolis Mullar</span>
-						<p>
-							They provide great service facilty consectetur adipisicing elit. Itaque rem, praesentium, iure, ipsum magnam deleniti a vel eos adipisci suscipit fugit placeat.
-						</p>
+					<div class="content">
+						<p class="mb-4">Our neurology surgery program is recognized for its excellence in treating complex neurological conditions, offering advanced surgical interventions and comprehensive care to improve outcomes and enhance quality of life for patients with neurological disorders.</p>
 					</div>
-					<i class="icofont-quote-right"></i>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="service-item mb-4">
+					<div class="icon d-flex align-items-center">
+						<i class="icofont-dna-alt-1 text-lg"></i>
+						<h4 class="mt-3 mb-3">Gynecology</h4>
+					</div>
+					<div class="content">
+						<p class="mb-4">Our award-winning gynecology services provide comprehensive care for women of all ages, addressing a wide range of reproductive health needs with compassion, expertise, and a commitment to empowering patients to make informed decisions about their health and well-being.</p>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
+
 {% endblock content %}

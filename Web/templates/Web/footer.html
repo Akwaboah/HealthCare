@@ -31,14 +31,14 @@
 					<div class="divider mb-4"></div>
 
 					<ul class="list-unstyled footer-menu lh-35">
-						<li><a href="#!">Dental</a></li>
-						<li><a href="#!">Laboratory</a></li>
-						<li><a href="#!">Radiology</a></li>
-						<li><a href="#!">Pharmacy</a></li>
-						<li><a href="#!">Surgery</a></li>
-						<li><a href="#!">Wards</a></li>
-						<li><a href="#!">Ear, Nose and Throat(ENT)</a></li>
-						<li><a href="#!">In Vitro Fertilization</a></li>
+						<li><a href="{% url 'page' 'dental-services' %}">Dental Care</a></li>
+						<li><a href="{% url 'page' 'laboratory-services' %}">Laboratory</a></li>
+						<li><a href="{% url 'page' 'radiology-services' %}">Radiology</a></li>
+						<li><a href="{% url 'page' 'pharmacy-services' %}">Pharmacy</a></li>
+						<li><a href="{% url 'page' 'surgery-services' %}">Surgery</a></li>
+						<li><a href="{% url 'page' 'wards-services' %}">Wards</a></li>
+						<li><a href="{% url 'page' 'ent-services' %}">Ear, Nose, and Throat (ENT)</a></li>
+						<li><a href="{% url 'page' 'ivf-services' %}">In Vitro Fertilization</a></li>
 					</ul>
 				</div>
 			</div>
@@ -83,12 +83,12 @@
 		</div>
 
 		<div class="footer-btm py-4 mt-5">
-			<div class="row align-items-center justify-content-between">
-				<div class="col-lg-6">
+			<div class="row align-items-center justify-content-end">
+				{% comment %} <div class="col-lg-6">
 					<div class="copyright">
 						Copyright &copy; 2021, Designed &amp; Developed by <a href="https://harrytech.com/">HarryTech</a>
 					</div>
-				</div>
+				</div> {% endcomment %}
 				<div class="col-lg-6">
 					<div class="subscribe-form text-lg-right mt-5 mt-lg-0">
 						<form action="#" class="subscribe">
